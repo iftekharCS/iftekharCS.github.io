@@ -109,6 +109,7 @@ img[alt="Profile photo"]{
   width:100%;
   max-width:240px;        /* ideal desktop size for the sidebar */
   margin:auto;            /* centers inside the left column */
+  margin-top:16px;
   border-radius:10px;
   border:1px solid var(--border);
 }
@@ -116,6 +117,6 @@ img[alt="Profile photo"]{
 /* Slightly smaller on phones */
 @media (max-width: 768px){
   img[alt="Profile photo"]{
-    max-width:180px;
+    max-width:200px;
   }
 }
