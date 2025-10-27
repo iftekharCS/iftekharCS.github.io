@@ -91,6 +91,13 @@ blockquote{
   color:var(--muted)
 }
 
+/* ---------- Center-align Contact Card Only ---------- */
+.grid .card {
+  text-align: center;
+}
+
+
+
 /* ---------- Tables / Code ---------- */
 table{ border-collapse:collapse; width:100% }
 th, td{ border:1px solid var(--border); padding:8px; text-align:left }
